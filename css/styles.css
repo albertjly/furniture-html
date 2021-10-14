@@ -1,0 +1,503 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+a,
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+.m-1 {
+  margin: calc(1rem * 1 / 2);
+}
+.m-2 {
+  margin: calc(1rem * 2 / 2);
+}
+.m-3 {
+  margin: calc(1rem * 3 / 2);
+}
+.m-4 {
+  margin: calc(1rem * 4 / 2);
+}
+.m-5 {
+  margin: calc(1rem * 5 / 2);
+}
+.m-6 {
+  margin: calc(1rem * 6 / 2);
+}
+.m-7 {
+  margin: calc(1rem * 7 / 2);
+}
+.m-8 {
+  margin: calc(1rem * 8 / 2);
+}
+.mx-1 {
+  margin-top: calc(1rem * 1 / 2);
+  margin-bottom: calc(1rem * 1 / 2);
+}
+.mx-2 {
+  margin-top: calc(1rem * 2 / 2);
+  margin-bottom: calc(1rem * 2 / 2);
+}
+.mx-3 {
+  margin-top: calc(1rem * 3 / 2);
+  margin-bottom: calc(1rem * 3 / 2);
+}
+.mx-4 {
+  margin-top: calc(1rem * 4 / 2);
+  margin-bottom: calc(1rem * 4 / 2);
+}
+.mx-5 {
+  margin-top: calc(1rem * 5 / 2);
+  margin-bottom: calc(1rem * 5 / 2);
+}
+.mx-6 {
+  margin-top: calc(1rem * 6 / 2);
+  margin-bottom: calc(1rem * 6 / 2);
+}
+.mx-7 {
+  margin-top: calc(1rem * 7 / 2);
+  margin-bottom: calc(1rem * 7 / 2);
+}
+.mx-8 {
+  margin-top: calc(1rem * 8 / 2);
+  margin-bottom: calc(1rem * 8 / 2);
+}
+.my-1 {
+  margin-right: calc(1rem * 1 / 2);
+  margin-left: calc(1rem * 1 / 2);
+}
+.my-2 {
+  margin-right: calc(1rem * 2 / 2);
+  margin-left: calc(1rem * 2 / 2);
+}
+.my-3 {
+  margin-right: calc(1rem * 3 / 2);
+  margin-left: calc(1rem * 3 / 2);
+}
+.my-4 {
+  margin-right: calc(1rem * 4 / 2);
+  margin-left: calc(1rem * 4 / 2);
+}
+.my-5 {
+  margin-right: calc(1rem * 5 / 2);
+  margin-left: calc(1rem * 5 / 2);
+}
+.my-6 {
+  margin-right: calc(1rem * 6 / 2);
+  margin-left: calc(1rem * 6 / 2);
+}
+.my-7 {
+  margin-right: calc(1rem * 7 / 2);
+  margin-left: calc(1rem * 7 / 2);
+}
+.my-8 {
+  margin-right: calc(1rem * 8 / 2);
+  margin-left: calc(1rem * 8 / 2);
+}
+.ml-1 {
+  margin-left: calc(1rem * 1 / 2);
+}
+.ml-2 {
+  margin-left: calc(1rem * 2 / 2);
+}
+.ml-3 {
+  margin-left: calc(1rem * 3 / 2);
+}
+.ml-4 {
+  margin-left: calc(1rem * 4 / 2);
+}
+.ml-5 {
+  margin-left: calc(1rem * 5 / 2);
+}
+.ml-6 {
+  margin-left: calc(1rem * 6 / 2);
+}
+.ml-7 {
+  margin-left: calc(1rem * 7 / 2);
+}
+.ml-8 {
+  margin-left: calc(1rem * 8 / 2);
+}
+.mr-1 {
+  margin-right: calc(1rem * 1 / 2);
+}
+.mr-2 {
+  margin-right: calc(1rem * 2 / 2);
+}
+.mr-3 {
+  margin-right: calc(1rem * 3 / 2);
+}
+.mr-4 {
+  margin-right: calc(1rem * 4 / 2);
+}
+.mr-5 {
+  margin-right: calc(1rem * 5 / 2);
+}
+.mr-6 {
+  margin-right: calc(1rem * 6 / 2);
+}
+.mr-7 {
+  margin-right: calc(1rem * 7 / 2);
+}
+.mr-8 {
+  margin-right: calc(1rem * 8 / 2);
+}
+.mt-1 {
+  margin-top: calc(1rem * 1 / 2);
+}
+.mt-2 {
+  margin-top: calc(1rem * 2 / 2);
+}
+.mt-3 {
+  margin-top: calc(1rem * 3 / 2);
+}
+.mt-4 {
+  margin-top: calc(1rem * 4 / 2);
+}
+.mt-5 {
+  margin-top: calc(1rem * 5 / 2);
+}
+.mt-6 {
+  margin-top: calc(1rem * 6 / 2);
+}
+.mt-7 {
+  margin-top: calc(1rem * 7 / 2);
+}
+.mt-8 {
+  margin-top: calc(1rem * 8 / 2);
+}
+.mb-1 {
+  margin-bottom: calc(1rem * 1 / 2);
+}
+.mb-2 {
+  margin-bottom: calc(1rem * 2 / 2);
+}
+.mb-3 {
+  margin-bottom: calc(1rem * 3 / 2);
+}
+.mb-4 {
+  margin-bottom: calc(1rem * 4 / 2);
+}
+.mb-5 {
+  margin-bottom: calc(1rem * 5 / 2);
+}
+.mb-6 {
+  margin-bottom: calc(1rem * 6 / 2);
+}
+.mb-7 {
+  margin-bottom: calc(1rem * 7 / 2);
+}
+.mb-8 {
+  margin-bottom: calc(1rem * 8 / 2);
+}
+.p-1 {
+  padding: calc(1rem * 1 / 2);
+}
+.p-2 {
+  padding: calc(1rem * 2 / 2);
+}
+.p-3 {
+  padding: calc(1rem * 3 / 2);
+}
+.p-4 {
+  padding: calc(1rem * 4 / 2);
+}
+.p-5 {
+  padding: calc(1rem * 5 / 2);
+}
+.p-6 {
+  padding: calc(1rem * 6 / 2);
+}
+.p-7 {
+  padding: calc(1rem * 7 / 2);
+}
+.p-8 {
+  padding: calc(1rem * 8 / 2);
+}
+.px-1 {
+  padding-top: calc(1rem * 1 / 2);
+  padding-bottom: calc(1rem * 1 / 2);
+}
+.px-2 {
+  padding-top: calc(1rem * 2 / 2);
+  padding-bottom: calc(1rem * 2 / 2);
+}
+.px-3 {
+  padding-top: calc(1rem * 3 / 2);
+  padding-bottom: calc(1rem * 3 / 2);
+}
+.px-4 {
+  padding-top: calc(1rem * 4 / 2);
+  padding-bottom: calc(1rem * 4 / 2);
+}
+.px-5 {
+  padding-top: calc(1rem * 5 / 2);
+  padding-bottom: calc(1rem * 5 / 2);
+}
+.px-6 {
+  padding-top: calc(1rem * 6 / 2);
+  padding-bottom: calc(1rem * 6 / 2);
+}
+.px-7 {
+  padding-top: calc(1rem * 7 / 2);
+  padding-bottom: calc(1rem * 7 / 2);
+}
+.px-8 {
+  padding-top: calc(1rem * 8 / 2);
+  padding-bottom: calc(1rem * 8 / 2);
+}
+.py-1 {
+  padding-right: calc(1rem * 1 / 2);
+  padding-left: calc(1rem * 1 / 2);
+}
+.py-2 {
+  padding-right: calc(1rem * 2 / 2);
+  padding-left: calc(1rem * 2 / 2);
+}
+.py-3 {
+  padding-right: calc(1rem * 3 / 2);
+  padding-left: calc(1rem * 3 / 2);
+}
+.py-4 {
+  padding-right: calc(1rem * 4 / 2);
+  padding-left: calc(1rem * 4 / 2);
+}
+.py-5 {
+  padding-right: calc(1rem * 5 / 2);
+  padding-left: calc(1rem * 5 / 2);
+}
+.py-6 {
+  padding-right: calc(1rem * 6 / 2);
+  padding-left: calc(1rem * 6 / 2);
+}
+.py-7 {
+  padding-right: calc(1rem * 7 / 2);
+  padding-left: calc(1rem * 7 / 2);
+}
+.py-8 {
+  padding-right: calc(1rem * 8 / 2);
+  padding-left: calc(1rem * 8 / 2);
+}
+.pl-1 {
+  padding-left: calc(1rem * 1 / 2);
+}
+.pl-2 {
+  padding-left: calc(1rem * 2 / 2);
+}
+.pl-3 {
+  padding-left: calc(1rem * 3 / 2);
+}
+.pl-4 {
+  padding-left: calc(1rem * 4 / 2);
+}
+.pl-5 {
+  padding-left: calc(1rem * 5 / 2);
+}
+.pl-6 {
+  padding-left: calc(1rem * 6 / 2);
+}
+.pl-7 {
+  padding-left: calc(1rem * 7 / 2);
+}
+.pl-8 {
+  padding-left: calc(1rem * 8 / 2);
+}
+.pr-1 {
+  padding-right: calc(1rem * 1 / 2);
+}
+.pr-2 {
+  padding-right: calc(1rem * 2 / 2);
+}
+.pr-3 {
+  padding-right: calc(1rem * 3 / 2);
+}
+.pr-4 {
+  padding-right: calc(1rem * 4 / 2);
+}
+.pr-5 {
+  padding-right: calc(1rem * 5 / 2);
+}
+.pr-6 {
+  padding-right: calc(1rem * 6 / 2);
+}
+.pr-7 {
+  padding-right: calc(1rem * 7 / 2);
+}
+.pr-8 {
+  padding-right: calc(1rem * 8 / 2);
+}
+.pt-1 {
+  padding-top: calc(1rem * 1 / 2);
+}
+.pt-2 {
+  padding-top: calc(1rem * 2 / 2);
+}
+.pt-3 {
+  padding-top: calc(1rem * 3 / 2);
+}
+.pt-4 {
+  padding-top: calc(1rem * 4 / 2);
+}
+.pt-5 {
+  padding-top: calc(1rem * 5 / 2);
+}
+.pt-6 {
+  padding-top: calc(1rem * 6 / 2);
+}
+.pt-7 {
+  padding-top: calc(1rem * 7 / 2);
+}
+.pt-8 {
+  padding-top: calc(1rem * 8 / 2);
+}
+.pb-1 {
+  padding-bottom: calc(1rem * 1 / 2);
+}
+.pb-2 {
+  padding-bottom: calc(1rem * 2 / 2);
+}
+.pb-3 {
+  padding-bottom: calc(1rem * 3 / 2);
+}
+.pb-4 {
+  padding-bottom: calc(1rem * 4 / 2);
+}
+.pb-5 {
+  padding-bottom: calc(1rem * 5 / 2);
+}
+.pb-6 {
+  padding-bottom: calc(1rem * 6 / 2);
+}
+.pb-7 {
+  padding-bottom: calc(1rem * 7 / 2);
+}
+.pb-8 {
+  padding-bottom: calc(1rem * 8 / 2);
+}
+.container {
+  margin: 0 auto;
+  max-width: 90rem;
+}
+.container header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container header .upper-left {
+  height: 534px;
+  background: url("../images/desktop-image-hero-1.jpg") no-repeat;
+  background-size: cover;
+}
+.container header .upper-left nav {
+  display: flex;
+  padding: 60px 0 0 60px;
+  width: 840px;
+}
+.container header .upper-left nav .logo {
+  cursor: pointer;
+}
+.container header .upper-left nav .navItems {
+  display: flex;
+}
+.container header .upper-left nav .navItems .items {
+  flex: 1;
+  width: 5rem;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+.container header .upper-left nav .navItems .items span:hover::after {
+  transform: scaleX(0.4);
+}
+.container header .upper-left nav .navItems .items span::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -0.15rem;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  transform: scaleX(0);
+  transition: ease-in-out 200ms;
+}
+.container header .upper-right {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.container header .upper-right .description {
+  padding: 120px 100px 0 100px;
+}
+.container header .upper-right .description > h1 {
+  font-size: 2.5rem;
+  line-height: 2.25rem;
+  font-weight: 600;
+}
+.container header .upper-right .description p {
+  font-size: 0.9rem;
+}
+.container header .upper-right .description .shopNow {
+  letter-spacing: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.container header .upper-right .description .shopNow:hover {
+  color: #999;
+}
+.container header .upper-right .description .shopNow:hover svg {
+  fill: #999;
+}
+.container header .upper-right .description .shopNow:active {
+  transform: scale(1.02);
+  transition: ease 100ms;
+}
+.container header .upper-right .btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.container header .upper-right .btn a {
+  float: left;
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  background-color: #333;
+  text-align: center;
+  line-height: 5.5rem;
+}
+.container header .upper-right .btn a:hover {
+  background-color: #555;
+}
+.container header .upper-right .btn a:active {
+  background-color: #444;
+}
+.container #about-part {
+  display: flex;
+  justify-content: space-between;
+  height: 266px;
+}
+.container #about-part .about-part-middle {
+  width: 100%;
+  padding: 3.5rem 2.5rem;
+}
+.container #about-part .about-part-middle h4 {
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+}
+.container #about-part .about-part-middle p {
+  font-size: 0.9rem;
+}
